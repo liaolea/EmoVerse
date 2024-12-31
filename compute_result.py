@@ -296,7 +296,7 @@ def compute_pos(mosei_sentiment_json,pos_neg_json):
                         neg_rcnt+=1
 
     print(pos_rcnt/pos_cnt,neg_rcnt/neg_cnt) 
-    print((pos_rcnt+neg_rcnt)/(pos_cnt+neg_cnt)) # 目前最佳结果为83%
+    print((pos_rcnt+neg_rcnt)/(pos_cnt+neg_cnt))
 
 def compute_other_pos(mosei_sentiment_json,pos_neg_json):
 
