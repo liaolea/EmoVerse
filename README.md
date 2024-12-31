@@ -39,15 +39,16 @@ bash second_stage.sh
 ## Evaluation
 Once inference is completed using ms-swift, the corresponding inference files will be generated. You can then calculate the accuracy by using the functions in compute_result.py.
 ```
-bash inference.sh
+bash test.sh
 python compute_result.py
 ```
 
 ## Cite us
+```
 @article{li2024m2se,
   title={M2SE: A Multistage Multitask Instruction Tuning Strategy for Unified Sentiment and Emotion Analysis},
   author={Li, Ao and Xu, Longwei and Ling, Chen and Zhang, Jinghui and Wang, Pengwei},
   journal={arXiv preprint arXiv:2412.08049},
   year={2024}
 }
-
+```
