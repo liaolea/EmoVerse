@@ -11,7 +11,7 @@ Our paper: [arXiv](https://arxiv.org/abs/2412.08049).
 we construct the Affective Multitask (AMT) dataset, which includes multimodal sentiment analysis (MSA), multimodal emotion recognition (MER), facial expression recognition (FER), emotion reasoning inference (ERI), and emotion cause-pair extraction (ECPE) tasks. 
 
 <div align="center">
-  <img src="data.png"/>
+  <img src="data.jpg"/>
 </div>
 
 We provide the training data for both stages of EmoVerse, which can be found in the data folder.
@@ -28,7 +28,7 @@ Please donwload raw video:
 We develop the EmoVerse model. EmoVerse unifies tasks in the sentiment and emotion domains by leveraging the M2SE strategy.
 
 <div align="center">
-  <img src="model.png"/>
+  <img src="model.jpg"/>
 </div>
 
 ### Environment
