@@ -31,7 +31,7 @@ We develop the EmoVerse model. EmoVerse unifies tasks in the sentiment and emoti
   <img src="model.png"/>
 </div>
 
-## Environment
+### Environment
 The fine-tuning framework for EmoVerse based on ms-swift: [ms-swift](https://github.com/modelscope/ms-swift).
 ```
 conda create -n emoverse python=3.9
@@ -39,7 +39,7 @@ conda activate emoverse
 pip install 'ms-swift[all]' -U
 ```
 
-## Checkpoint
+### Checkpoint
 EmoVerse is fine-tuned based on Internvl2, download Internvl2 weights at [here](https://github.com/OpenGVLab/InternVL).
 Once the checkpoint is downloaded, place it in your own directory and make sure to update the model path in the corresponding .sh file accordingly. 
 We will be releasing the EmoVerse checkpoint soon.
@@ -49,12 +49,12 @@ We will be releasing the EmoVerse checkpoint soon.
 bash first_stage.sh
 ```
 
-## Multitask Reason Fine-tuning
+### Multitask Reason Fine-tuning
 ```
 bash second_stage.sh
 ```
 
-## Evaluation
+### Evaluation
 Once inference is completed using ms-swift, the corresponding inference files will be generated. You can then calculate the accuracy by using the functions in compute_result.py.
 ```
 bash test.sh
