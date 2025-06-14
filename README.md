@@ -42,7 +42,7 @@ pip install 'ms-swift[all]' -U
 ### Checkpoint
 EmoVerse is fine-tuned based on Internvl2, download Internvl2 weights at [here](https://github.com/OpenGVLab/InternVL).
 Once the checkpoint is downloaded, place it in your own directory and make sure to update the model path in the corresponding .sh file accordingly. 
-EmoVerse-8B download:
+EmoVerse-8B download: https://drive.google.com/drive/folders/1v4xYzZ9qF7fLA76VbzvEQ44U0BNB41z2?usp=sharing
 
 ### Multitask Pretraining
 ```
