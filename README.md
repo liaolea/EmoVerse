@@ -1,4 +1,4 @@
-#  EmoVerse: Exploring Multimodal Large Language Models for Sentiment and Emotion Understanding
+#  EmoVerse: Enhancing Multimodal Large Language Models for Affective Computing via Multitask Learning
 
 **Ao Li***, **Longwei Xu***, **Chen Ling**, **Jinghui Zhang**, **Pengwei Wang**†
 
@@ -42,7 +42,7 @@ pip install 'ms-swift[all]' -U
 ### Checkpoint
 EmoVerse is fine-tuned based on Internvl2, download Internvl2 weights at [here](https://github.com/OpenGVLab/InternVL).
 Once the checkpoint is downloaded, place it in your own directory and make sure to update the model path in the corresponding .sh file accordingly. 
-We will be releasing the EmoVerse checkpoint soon.
+EmoVerse-8B download:
 
 ### Multitask Pretraining
 ```
