@@ -1,4 +1,4 @@
-#  EmoVerse: Enhancing Multimodal Large Language Models for Affective Computing via Multitask Learning
+#  EmoVerse: Enhancing Multimodal Large Language Models for Affective Computing via Multitask Learning (Neurocomputing)
 
 **Ao Li***, **Longwei Xu***, **Chen Ling**, **Jinghui Zhang**, **Pengwei Wang**†
 
@@ -60,13 +60,13 @@ python compute_result.py
 
 ## Cite us
 ```
-@misc{li2025emoverseexploringmultimodallarge,
-      title={EmoVerse: Exploring Multimodal Large Language Models for Sentiment and Emotion Understanding}, 
-      author={Ao Li and Longwei Xu and Chen Ling and Jinghui Zhang and Pengwei Wang},
-      year={2025},
-      eprint={2412.08049},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.08049}, 
+@article{li2025emoverse,
+  title={EmoVerse: Enhancing Multimodal Large Language Models for Affective Computing via Multitask Learning},
+  author={Li, Ao and Xu, Longwei and Ling, Chen and Zhang, Jinghui and Wang, Pengwei},
+  journal={Neurocomputing},
+  volume={650},
+  pages={130810},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
